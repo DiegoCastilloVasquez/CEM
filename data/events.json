@@ -1,0 +1,129 @@
+{
+  "lastUpdated": "2024-12-01T10:30:00",
+  "events": [
+    {
+      "id": 1,
+      "title": "MateTrueque",
+      "date": "2025-07-03",
+      "time": "10:00",
+      "endTime": "18:00",
+      "location": "Facultad de Ciencias Matemáticas",
+      "category": "social",
+      "description": "📚🔁 ¡Llega el primer MateTrueque!<br>Organizado por el Centro de Estudiantes de Matemática - UNMSM 🧠❤️<br><br>¿Tienes libros de matemática que ya leíste? ¿O quieres descubrir nuevos textos clásicos, de divulgación o incluso revolucionarios?<br>¡Este es tu momento! 📖✨<br><br>🔄 Intercambia libros de carrera, divulgación o afines a la matemática con tu comunidad.<br>Una forma de compartir conocimiento, memoria académica y lectura crítica.<br><br>👥 ¡Trae tus libros y tu curiosidad matemática!",
+      "images": [
+        "assets/images/events/mate_trueque.jpg"
+      ],
+      "registrationUrl": "",
+      "createdBy": "CEM"
+    },
+    {
+      "id": 2,
+      "title": "Ciclo de Sesiones: Fundamentos Filosóficos de las Matemáticas",
+      "date": "2025-08-24",
+      "time": "10:00",
+      "endTime": "12:00",
+      "location": "Virtual",
+      "category": "taller",
+      "description": "Estimados compañeros, este domingo 24 de agosto damos inicio al ciclo de sesiones de nuestro espacio \"Fundamentos Filosóficos de las Matemáticas\", organizado por el Centro de Estudiantes de Matemática – UNMSM.<br><br>A lo largo de cuatro unidades, cada una de dos sesiones, exploraremos temas fundamentales como el método axiomático, la demostración matemática, las concepciones del infinito y la metafísica de los objetos matemáticos, guiados por los expositores Luis F. Bartolo Alegre (LMU München || MCMP) y Miguel A. Merma Mora (PUCP).<br><br>¡Los invitamos a ser parte de este espacio de reflexión y discusión sobre las bases filosóficas que sostienen a las matemáticas!",
+      "images": [
+        "assets/images/events/Fundamentos_Filosoficos_Matematica_1.jpg",
+        "assets/images/events/Fundamentos_Filosoficos_Matematica_2.jpg"
+      ],
+      "registrationUrl": "",
+      "createdBy": "CEM"
+    },
+    {
+      "id": 3,
+      "title": "Chocolatada Navideña 2025",
+      "date": "2025-12-03",
+      "time": "15:00",
+      "endTime": "19:00",
+      "location": "Hall, FCM",
+      "category": "social",
+      "description": "¡El CEM te invita a su Chocolatada por la Unidad Estudiantil! 🤝<br><br>¡Estimados compañeros y compañeras de la Facultad de Ciencias Matemáticas! El CEM les extiende una cálida invitación a nuestra Chocolatada Navideña, que será realizada en colaboración con el CECC.<br><br>Este evento no es solo para compartir un delicioso chocolate, sino que está pensado como un espacio para fortalecer los lazos entre todos nosotros. ¡Tu presencia es fundamental para hacer de este encuentro un verdadero momento de integración!<br><br>¡Los esperamos a todos para construir juntos un estudiantado más unido!",
+      "images": [
+        "assets/images/events/chocolatada_cem_2025.jpg"
+      ],
+      "registrationUrl": "",
+      "createdBy": "CEM, CECC"
+    },
+    {
+      "id": 4,
+      "title": "I Seminario de Historia y Filosofía de la Matemática",
+      "date": "2025-12-17",
+      "time": "09:00",
+      "endTime": "10:30",
+      "location": "Auditorio Pedro Humberto Rivera - FCM - UNMSM",
+      "category": "academico",
+      "description": "El Centro de Estudiantes de Matemática (CEM) tiene el agrado de invitar a toda la comunidad matemática al I Seminario de Historia y Filosofía de la Matemática.<br><br>En esta conferencia inaugural, titulada \"Los Transfinitos y la Hipótesis del Continuo\" tendremos el honor de recibir al Dr. Esptiben Rojas Bernilla (Universidad de Magallanes) 🎓.<br><br>La conferencia explorará los fundamentos de la matemática contemporánea basados en los axiomas de Zermelo-Fraenkel y la teoría de los números transfinitos de Cantor, distinguiendo entre infinitos enumerables y no enumerables. El punto central es la Hipótesis del Continuo (primer problema de Hilbert de 1900), la cual postula que no existe ningún tamaño de infinito estrictamente entre los números naturales y los reales. Se destaca que este problema es independiente de los axiomas estándar, un hecho probado históricamente en dos partes:<br>- Consistencia: Kurt Gödel demostró que la hipótesis no puede refutarse.<br>- Independencia: Paul Cohen, mediante el método de Forcing, demostró.",
+      "images": [
+        "assets/images/events/I_Seminario_Historia_Filosofia_Matematica.jpg"
+      ],
+      "registrationUrl": "",
+      "createdBy": "CEM, CERSEU"
+    },
+    {
+      "id": 5,
+      "title": "I Coloquio Sobre la Construcción del Conocimiento Matemático: Enfoques Históricos y Filosóficos",
+      "date": "2025-12-17",
+      "time": "10:30",
+      "endTime": "12:00",
+      "location": "Auditorio Pedro Humberto Rivera - FCM - UNMSM",
+      "category": "academico",
+      "description": "El Gremio de Matemática (CEM) tiene el agrado de invitarles al panel 🏛 \"La construcción del conocimiento matemático: Enfoques históricos y filosóficos\".<br><br>Este evento académico reunirá a destacados especialistas para debatir los fundamentos epistemológicos 🧠 y la evolución histórica de nuestra ciencia. Será una oportunidad invaluable para reflexionar sobre cómo se gestan los conceptos matemáticos más allá de la técnica.<br><br>🎓 Contaremos con un panel de lujo:<br><br>🇨🇱 Dr. Esptiben Rojas Bernilla (Universidad de Magallanes - Chile)<br>🇵🇪 Dr. Miguel León Untiveros (UNMSM)<br>🇵🇪 Dra. Rosa Moreno Pachamango (UNT)<br>🇵🇪 Mg. Moisés Toledo Julian (UNMSM)<br>🎙 Moderador Mag. José Ynoñan Jiménez (UNPRG)",
+      "images": [
+        "assets/images/events/I_Coloquio_Construccion_Conocimiento_Matematico.jpg"
+      ],
+      "registrationUrl": "",
+      "createdBy": "CEM, CERSEU"
+    },
+    {
+      "id": 6,
+      "title": "Talleres Introductorios Para Nuevos Ingresantes 2026",
+      "date": "2026-01-19",
+      "time": "",
+      "endTime": "",
+      "location": "Facultad de Ciencias Matemáticas",
+      "category": "taller",
+      "description": "📚✨ Talleres Introductorios - Edición Verano ✨️📚<br><br>¿Acabas de ingresar ✨? Desde nuestros gremios y espacios estudiantiles hemos preparado talleres introductorios gratuitos y presenciales para ingresantes que quieran arrancar con todo desde este verano. 💪📖<br><br>📐📘 Dirigido a ingresantes de las áreas B, C y E (Ciencias Básicas, Ingenierías y Humanidades y Ciencias Jurídicas y Sociales)<br><br>🎓 Esta iniciativa busca reforzar lo básico, aclarar dudas y darte una preparación preliminar para tu primer ciclo. Los talleres están hechos por y para estudiantes.<br><br>¡Inscribete y pondera en tu primer ciclo!",
+      "images": [
+        "assets/images/events/talleres_introductorios_1.jpg",
+        "assets/images/events/talleres_introductorios_2.jpg",
+        "assets/images/events/talleres_introductorios_3.jpg",
+        "assets/images/events/talleres_introductorios_4.jpg"
+      ],
+      "registrationUrl": "https://forms.gle/A1pgN4FyJb86aQF99",
+      "createdBy": "CEM, CECC, CFB, CPB, CEITS"
+    },
+    {
+      "id": 7,
+      "title": "Jornada de Intercambio Científico: Investigación Matemática en Chile",
+      "date": "2026-01-26",
+      "time": "08:30",
+      "endTime": "10:00",
+      "location": "Auditorio Pedro Humberto Rivera - FCM - UNMSM",
+      "category": "academico",
+      "description": "🧮 ¿Qué queda de un investigador cuando se aleja 👣 de la pizarra? 🖋<br><br>El CEM 📐 y el CECC 💻 te invitan a descubrirlo este lunes 26 de enero. En esta Jornada de Intercambio Científico buscaremos seguir el rastro de quienes habitan el rigor 🧬 de la ciencia día tras día. 🌌 Escucharemos el testimonio 🗣 y la trayectoria del Dr. Esptiben Rojas Bernilla 🇨🇱 (UMAG, Chile) y el Mg. Moisés Toledo Julian 🇵🇪 (UNMSM). Dos caminos 🛤 que hoy se cruzan en nuestra facultad para revelarnos 💡, desde la experiencia propia, qué significa dedicar la vida a la matemática. 🏛",
+      "images": [
+        "assets/images/events/jornada_intercambio_cientifico.jpg"
+      ],
+      "registrationUrl": "https://forms.gle/csKB7FiAAm64LCbf9",
+      "createdBy": "CEM, CECC, CERSEU"
+    },
+    {
+      "id": 8,
+      "title": "Bienveniada a Ingresantes 2026",
+      "date": "2026-03-27",
+      "time": "13:00",
+      "endTime": "18:00",
+      "location": "Facultad de Ciencias Matemáticas",
+      "category": "social",
+      "description": "Unete para participar en la bienvenida a ingresantes 2026, un evento organizado por el CEM y CECC. Este evento está diseñado para dar la bienvenida a los nuevos estudiantes de la Facultad de Ciencias Matemáticas, brindándoles una introducción cálida y amigable a la comunidad académica. Durante esta jornada, los ingresantes tendrán la oportunidad de conocer a sus compañeros y familiarizarse con las instalaciones de la facultad. ¡No te pierdas  la bienvenida!",
+      "images": [
+        "assets/images/events/bienvenida_ingresantes_2026.jpg"
+      ],
+      "registrationUrl": "https://chat.whatsapp.com/Ii5dJjGHI8f0LXYh8x8Xre?mode=gi_t",
+      "createdBy": "CEM, CECC"
+    }
+  ]
+}

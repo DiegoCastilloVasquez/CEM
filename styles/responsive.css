@@ -1,0 +1,435 @@
+/* Estilos responsive para la página web del CEM */
+
+/* Tablets (768px - 1023px) */
+@media (max-width: 1023px) {
+    .header-container {
+        padding: 0 var(--spacing-sm);
+    }
+    
+    .main-nav ul {
+        gap: var(--spacing-md);
+    }
+    
+    .nav-link {
+        padding: var(--spacing-sm) var(--spacing-sm);
+        font-size: var(--font-size-sm);
+    }
+    
+    .hero-title {
+        font-size: var(--font-size-3xl);
+    }
+    
+    .hero-subtitle {
+        font-size: var(--font-size-lg);
+    }
+    
+    .section-title {
+        font-size: var(--font-size-2xl);
+    }
+    
+    .card-grid {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: var(--spacing-lg);
+    }
+    
+    .footer-content {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: var(--spacing-xl);
+    }
+}
+
+/* Móviles grandes (480px - 767px) */
+@media (max-width: 767px) {
+    .site-header {
+        height: auto;
+        padding: var(--spacing-sm) 0;
+    }
+    
+    .header-container {
+        flex-direction: column;
+        gap: var(--spacing-md);
+        padding: 0 var(--spacing-md);
+    }
+    
+    .logo {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .main-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--spacing-sm);
+    }
+    
+    .nav-link {
+        padding: var(--spacing-xs) var(--spacing-sm);
+        font-size: var(--font-size-sm);
+    }
+    
+    .hero {
+        padding: var(--spacing-2xl) 0;
+    }
+    
+    .hero-title {
+        font-size: var(--font-size-2xl);
+    }
+    
+    .hero-subtitle {
+        font-size: var(--font-size-base);
+        padding: 0 var(--spacing-sm);
+    }
+    
+    .content-container {
+        padding: 0 var(--spacing-sm);
+    }
+    
+    .section {
+        margin-bottom: var(--spacing-2xl);
+    }
+    
+    .section-title {
+        font-size: var(--font-size-xl);
+        margin-bottom: var(--spacing-lg);
+    }
+    
+    .card-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .card {
+        padding: var(--spacing-lg);
+    }
+    
+    .card-title {
+        font-size: var(--font-size-lg);
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+    
+    .footer-section {
+        text-align: center;
+    }
+    
+    .footer-section ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--spacing-md);
+        padding-left: 0;
+    }
+    
+    .footer-section li {
+        display: inline-block;
+    }
+    
+    /* Utilidades para móviles */
+    .hide-on-mobile {
+        display: none !important;
+    }
+    
+    .show-on-mobile {
+        display: block !important;
+    }
+    
+    /* Ajustes de botones */
+    .btn {
+        padding: var(--spacing-sm) var(--spacing-lg);
+        width: auto;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    .btn-outline {
+        width: auto;
+        display: inline-block;
+    }
+}
+
+/* Móviles pequeños (hasta 479px) */
+@media (max-width: 479px) {
+    .logo-text {
+        font-size: var(--font-size-lg);
+    }
+    
+    .logo-text span {
+        display: block;
+        font-size: var(--font-size-sm);
+    }
+    
+    .hero-title {
+        font-size: var(--font-size-xl);
+    }
+    
+    .hero-subtitle {
+        font-size: var(--font-size-sm);
+    }
+    
+    .section-title {
+        font-size: var(--font-size-lg);
+    }
+    
+    .card {
+        padding: var(--spacing-md);
+    }
+    
+    .card-title {
+        font-size: var(--font-size-base);
+    }
+    
+    /* Ajustes para el mapa en móviles pequeños */
+    iframe[title*="Ubicación"] {
+        height: 300px !important;
+    }
+    
+    /* Ajustes de espaciado */
+    .mt-1, .mt-2, .mt-3, .mt-4,
+    .mb-1, .mb-2, .mb-3, .mb-4 {
+        margin-top: var(--spacing-sm);
+        margin-bottom: var(--spacing-sm);
+    }
+}
+
+/* Menú hamburguesa para móviles */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: var(--spacing-sm);
+    font-size: var(--font-size-xl);
+    color: var(--color-gray-dark);
+    z-index: 1001;
+    transition: all 0.3s ease;
+}
+
+.menu-toggle:hover {
+    color: var(--color-black);
+    background-color: var(--color-gray-very-light);
+    border-radius: var(--border-radius-sm);
+}
+
+@media (max-width: 767px) {
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: var(--spacing-md);
+        right: var(--spacing-md);
+        width: 44px;
+        height: 44px;
+    }
+    
+    .header-container {
+        position: relative;
+        min-height: 80px;
+    }
+    
+    .main-nav {
+        display: none;
+        width: 100%;
+        margin-top: var(--spacing-md);
+        background-color: var(--color-white);
+        border-radius: var(--border-radius-md);
+        box-shadow: var(--shadow-md);
+        padding: var(--spacing-md);
+        border: 1px solid var(--color-gray-light);
+    }
+    
+    .main-nav.active {
+        display: block;
+        animation: fadeInDown 0.3s ease-out;
+    }
+    
+    .main-nav ul {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+    
+    .nav-link {
+        display: block;
+        text-align: center;
+        padding: var(--spacing-md);
+        border: 1px solid var(--color-gray-light);
+        border-radius: var(--border-radius-md);
+        transition: all 0.3s ease;
+    }
+    
+    .nav-link:hover {
+        background-color: var(--color-gray-very-light);
+        border-color: var(--color-gray-medium);
+    }
+    
+    .nav-link.active {
+        background-color: var(--color-gray-very-light);
+        border-color: var(--color-gray-dark);
+        font-weight: 600;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Ajustes para tablets en orientación vertical */
+@media (max-width: 767px) and (orientation: portrait) {
+    .hero {
+        padding: var(--spacing-xl) 0;
+    }
+    
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Ajustes para tablets en orientación horizontal */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Ajustes para pantallas muy grandes */
+@media (min-width: 1400px) {
+    .content-container {
+        max-width: 1400px;
+    }
+    
+    .card-grid {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+}
+
+/* Mejoras de accesibilidad para modo alto contraste */
+@media (prefers-contrast: high) {
+    .nav-link {
+        border: 1px solid var(--color-black);
+    }
+    
+    .card {
+        border: 2px solid var(--color-black);
+    }
+    
+    .btn {
+        border: 2px solid var(--color-black);
+    }
+}
+
+/* Mejoras para modo reducido de movimiento */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    
+    .card:hover {
+        transform: none;
+    }
+    
+    .btn:hover {
+        transform: none;
+    }
+}
+
+/* Ajustes responsivos para la imagen de fondo del Hero */
+@media (max-width: 1023px) {
+    .hero-with-background {
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /* Solución para tablets (768px-1023px) - botón en hero con fondo */
+    .hero-with-background .btn {
+        width: auto !important;
+        display: inline-block !important;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-with-background {
+        min-height: 350px;
+        padding: var(--spacing-xl) var(--spacing-md);
+        margin: 0 calc(-1 * var(--spacing-sm)) var(--spacing-2xl);
+        border-radius: 0;
+    }
+    
+    .hero-with-background .hero-title {
+        font-size: 2.5rem;
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .hero-with-background .hero-subtitle {
+        font-size: var(--font-size-base);
+        margin-bottom: var(--spacing-lg);
+    }
+    
+    /* Solución específica para el botón en hero con fondo */
+    .hero-with-background .btn {
+        width: auto !important;
+        display: inline-block !important;
+        max-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 479px) {
+    .hero-with-background {
+        min-height: 300px;
+        padding: var(--spacing-lg) var(--spacing-sm);
+    }
+    
+    .hero-with-background .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-with-background .hero-subtitle {
+        font-size: var(--font-size-sm);
+    }
+    
+    .hero-with-background .btn {
+        padding: var(--spacing-sm) var(--spacing-md);
+        font-size: var(--font-size-sm);
+        width: auto !important;
+        display: inline-block !important;
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Ajustes para orientación horizontal en móviles */
+@media (max-width: 767px) and (orientation: landscape) {
+    .hero-with-background {
+        min-height: 250px;
+        padding: var(--spacing-md) var(--spacing-lg);
+    }
+}
+
+/* Ajustes para pantallas muy grandes */
+@media (min-width: 1400px) {
+    .hero-with-background {
+        min-height: 500px;
+    }
+}
