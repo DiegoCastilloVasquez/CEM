@@ -13,17 +13,17 @@ Página web oficial del Centro de Estudiantes de Matemática de la Facultad de C
 ├── DOCUMENTACION_EVENTOS.md    # Documentación del sistema de eventos
 ├── README.md                   # Este archivo
 ├── styles/                     # Estilos CSS
-│   ├── variables.css          # Variables de diseño
-│   ├── reset.css              # Reset CSS
-│   ├── main.css               # Estilos principales
-│   └── responsive.css         # Estilos responsive
+│   ├── variables.css           # Variables de diseño
+│   ├── reset.css               # Reset CSS
+│   ├── main.css                # Estilos principales
+│   └── responsive.css          # Estilos responsive
 ├── scripts/                    # JavaScript
-│   ├── main.js                # Funcionalidades principales
-│   └── events.js              # Sistema de gestión de eventos (carga desde JSON)
+│   ├── main.js                 # Funcionalidades principales
+│   └── events.js               # Sistema de gestión de eventos (carga desde JSON)
 ├── data/                       # Datos en formato JSON
-│   └── events.json            # Base de datos de eventos
+│   └── events.json             # Base de datos de eventos
 └── assets/                     # Recursos multimedia
-    └── images/                # Imágenes
+    └── images/                 # Imágenes
 ```
 
 ## Características

@@ -52,6 +52,105 @@
                 <a href="nosotros.html" class="btn mt-3">Conoce más sobre el CEM</a>
             </section>
 
+            <!-- Recursos Académicos -->
+            <section class="section">
+                <h2 class="section-title">Recursos Académicos</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <div style="display: flex; align-items: center; gap: var(--spacing-md); margin-bottom: var(--spacing-md);">
+                            <span style="font-size: 1.5rem;">📄</span>
+                            <h3 class="card-title">Ejercicios de Matemática Básica</h3>
+                        </div>
+                        <p class="card-content">
+                            <em>Recopilación de ejercicios de Matemática Básica</em>
+                        </p>
+                        <a href="https://drive.google.com/file/d/1Eg0QIFx3PZMyrFfrkYwjwOd5SsHCGFlf/preview" 
+                           target="_blank" 
+                           class="btn btn-outline mt-2">
+                            Ver PDF
+                        </a>
+                    </div>
+                    
+                    <div class="card">
+                        <div style="display: flex; align-items: center; gap: var(--spacing-md); margin-bottom: var(--spacing-md);">
+                            <span style="font-size: 1.5rem;">📄</span>
+                            <h3 class="card-title">Ejercicios de Cálculo 1</h3>
+                        </div>
+                        <p class="card-content">
+                            <em>Recopilación de ejercicios de Cálculo Diferencial</em>
+                        </p>
+                        <a href="https://drive.google.com/file/d/10CeRAWqhpeHL0XuMej9uzigD6IqixKoW/preview" 
+                           target="_blank" 
+                           class="btn btn-outline mt-2">
+                            Ver PDF
+                        </a>
+                    </div>
+                    
+                    <div class="card">
+                        <div style="display: flex; align-items: center; gap: var(--spacing-md); margin-bottom: var(--spacing-md);">
+                            <span style="font-size: 1.5rem;">📄</span>
+                            <h3 class="card-title">Ejercicios de Álgebra Lineal I</h3>
+                        </div>
+                        <p class="card-content">
+                            <em>Recopilación de ejercicios de Álgebra Lineal I</em>
+                        </p>
+                        <a href="https://drive.google.com/file/d/1wxIljgDSyF4coU-Xwk11sDfuI5g8a0Ro/preview" 
+                           target="_blank" 
+                           class="btn btn-outline mt-2">
+                            Ver PDF
+                        </a>
+                    </div>
+                    
+                    <div class="card">
+                        <div style="display: flex; align-items: center; gap: var(--spacing-md); margin-bottom: var(--spacing-md);">
+                            <span style="font-size: 1.5rem;">📄</span>
+                            <h3 class="card-title">Curso de Análisis Real I</h3>
+                        </div>
+                        <p class="card-content">
+                            <em>Material desarrollado por el CEM para un primer curso de Análisis Real</em>
+                        </p>
+                        <a href="https://drive.google.com/file/d/1PG6ywKQEUPc1k2oaUEaTVxQW_Z1t294s/view" 
+                           target="_blank" 
+                           class="btn btn-outline mt-2">
+                            Ver PDF
+                        </a>
+                    </div>
+                    
+                    <div class="card">
+                        <div style="display: flex; align-items: center; gap: var(--spacing-md); margin-bottom: var(--spacing-md);">
+                            <span style="font-size: 1.5rem;">📄</span>
+                            <h3 class="card-title">Ejercicios de Cálculo 2</h3>
+                        </div>
+                        <p class="card-content">
+                            <em>Recopilación de ejercicios de Cálculo Integral</em>
+                        </p>
+                        <a href="https://drive.google.com/file/d/1BG_H37yGa6c3Eq4iLt0ZF2Zx0MSU5NMn/preview" 
+                           target="_blank" 
+                           class="btn btn-outline mt-2">
+                            Ver PDF
+                        </a>
+                    </div>
+                    
+                    <div class="card">
+                        <div style="display: flex; align-items: center; gap: var(--spacing-md); margin-bottom: var(--spacing-md);">
+                            <span style="font-size: 1.5rem;">📄</span>
+                            <h3 class="card-title">Ejercicios de Estructuras Algebraicas I</h3>
+                        </div>
+                        <p class="card-content">
+                            <em>Recopilación de ejercicios de Estructuras Algebraicas I</em>
+                        </p>
+                        <a href="https://drive.google.com/file/d/1UyusCH4SsWniz3UpImtnzqc5CN-bFISo/preview" 
+                           target="_blank" 
+                           class="btn btn-outline mt-2">
+                            Ver PDF
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center mt-3">
+                    <a href="recursos.html" class="btn btn-outline">Ver todos los recursos</a>
+                </div>
+            </section>
+
             <!-- Eventos -->
             <section class="section">
                 <h2 class="section-title">Eventos</h2>
@@ -141,8 +240,8 @@
             // Ordenar eventos por fecha (más reciente primero)
             events.sort((a, b) => createLocalDate(b.date) - createLocalDate(a.date));
             
-            // Tomar solo los últimos 3 eventos
-            const latestEvents = events.slice(0, 3);
+            // Tomar solo los últimos 6 eventos
+            const latestEvents = events.slice(0, 6);
             
             // Si no hay eventos, mostrar mensaje
             if (latestEvents.length === 0) {
