@@ -124,6 +124,51 @@
       ],
       "registrationUrl": "https://chat.whatsapp.com/Ii5dJjGHI8f0LXYh8x8Xre?mode=gi_t",
       "createdBy": "CEM, CECC"
+    },
+    {
+      "id": 9,
+      "title": "Taller de Cálculo I",
+      "date": "2026-09-08",
+      "time": "18:00",
+      "endTime": "20:00",
+      "location": "Facultad de Ciencias Matemáticas",
+      "category": "taller",
+      "description": "Estimados compañeros, les compartimos la invitación al taller de Cálculo I, que realizaremos todos los martes y viernes de 6 a 8 pm. El ingreso es totalmente libre y sin inscripción para todos los compañeros.",
+      "images": [
+        "assets/images/events/c1-newton.jpg"
+      ],
+      "registrationUrl": "",
+      "createdBy": "CEM, CECC"
+    },
+    {
+      "id": 10,
+      "title": "Taller de Cálculo II",
+      "date": "2026-09-09",
+      "time": "18:00",
+      "endTime": "20:00",
+      "location": "Facultad de Ciencias Matemáticas",
+      "category": "taller",
+      "description": "Estimados compañeros, les compartimos la invitación al taller de Cálculo II, que realizaremos todos los miércoles de 6 a 8 pm. El ingreso es totalmente libre y sin inscripción para todos los compañeros.",
+      "images": [
+        "assets/images/events/c2-arquimedes.jpg"
+      ],
+      "registrationUrl": "",
+      "createdBy": "CEM, CECC"
+    },
+    {
+      "id": 11,
+      "title": "Taller de Matemática Básica",
+      "date": "2026-09-07",
+      "time": "18:00",
+      "endTime": "20:00",
+      "location": "Facultad de Ciencias Matemáticas",
+      "category": "taller",
+      "description": "Estimados compañeros, les compartimos la invitación al taller de Matemática Básica, que realizaremos todos los lunes y jueves de 6 a 8 pm. El ingreso es totalmente libre y sin inscripción para todos los compañeros.",
+      "images": [
+        "assets/images/events/mb-boole.jpg"
+      ],
+      "registrationUrl": "",
+      "createdBy": "CEM, CECC"
     }
   ]
 }
